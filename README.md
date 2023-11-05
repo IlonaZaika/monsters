@@ -7,9 +7,10 @@ This project is a React.js web application that allows users to view a list of m
 
 ## Features
 
-- View a list of potential monster guests for your Halloween party
+- View a list of potential monster guests for your Halloween party. [Public api](https://jsonplaceholder.typicode.com/users)
 - Search for monsters by name to find the perfect guest
 - Each monster comes with a unique avatar generated using [Robohash](https://robohash.org/).
 
 ## Preview
-![image](https://github.com/IlonaZaika/monsters/assets/79915514/2397d2e2-5236-4536-9ccd-d88b22968549)
+![image](https://github.com/IlonaZaika/monsters/assets/79915514/4ca69004-8595-4682-9043-8f8b6ecf5ef5)
+
