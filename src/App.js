@@ -45,7 +45,7 @@ class App extends React.Component {
         <h1 className='app-title'>It's Halloween night</h1>
         <SearchBox
           className='search-box-monsters'
-          placeholder='Search guests'
+          placeholder='Search for guests'
           onChangeHandler={onSearchChange} />
         <CardList monsters={filteredMonsters} />
       </div>
