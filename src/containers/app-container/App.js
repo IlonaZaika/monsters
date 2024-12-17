@@ -14,8 +14,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { monsters, searchField, onSearchChange, isPending, error } =
-      this.props;
+    const { monsters, searchField, onSearchChange } = this.props;
     const filteredMonsters = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchField.trim().toLowerCase())
     );
@@ -37,9 +36,7 @@ class App extends React.Component {
 const mapStateToProps = (state) => {
   return {
     searchField: state.search.searchField,
-    isPending: state.monsters.isPending,
     monsters: state.monsters.monsters,
-    error: state.monsters.error,
   };
 };
 
