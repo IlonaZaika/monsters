@@ -30,10 +30,6 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: |
-          # Install gh-pages package if not installed yet
-          npm install gh-pages
-          # Deploy to GitHub Pages using the token
-          npx gh-pages -d build -r https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git
+        run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
