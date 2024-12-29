@@ -10,7 +10,21 @@ This project is a React.js + Redux web application that allows users to view a l
 - View a list of potential monster guests for your Halloween party. [Public api](https://jsonplaceholder.typicode.com/users)
 - Search for monsters by name to find the perfect guest
 - Each monster comes with a unique avatar generated using [Robohash](https://robohash.org/).
+- Offline mode
 
+## Technical skills used
+
+- HTML/HTML5
+- CSS/CSS3
+- SemanticUI
+- Responsive Design
+- Flexbox
+- CSS Grid
+- Bootstrap 5
+- DOM Manipulation
+- React + Redux
+- Progressive Web App
+- Unit tests
 
 ## To run the project:
 
